@@ -1,0 +1,239 @@
+* {
+    /* border: 1px solid red; */
+    font-family: 'Open Sans', sans-serif;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 122px;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 20px 0px 0px rgba(139, 139, 139, 0.65);
+    font-size: 24px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 34px;
+    font-weight: bold;
+}
+
+.escolhas-header {
+    text-decoration: none;
+    color: #777777;
+}
+
+aside {
+    height: 235px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./image/banner.png');
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 60px;
+    line-height: 82px;
+    font-weight: 800;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.container-fotos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 14px;
+    padding-bottom: 80px;
+}
+
+.container-foto1 {
+    width: 40%;
+    display: flex;
+    justify-content: right;
+}
+
+.container-foto2 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: #C2185B;
+    display: flex;
+    flex-direction: column;
+    height: 662px;
+    width: 100vw;
+    align-content: space-around;
+}
+
+h2 {
+    padding-top: 48px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.desconto-container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.sapatos-desconto {
+    width: 260px;
+    height: 388px;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.content-container {
+    display: flex;
+    width: 100vw;
+    padding-top: 160px;
+    justify-content: center;
+    gap: 25px;
+    height: 900px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.content-container1 {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    align-content: space-between;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 48px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: #C2185B;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    text-align: center;
+    height: 99px;
+    width: 35vw;
+    margin-top: 18px;
+}
+
+.foto-container1 {
+    margin-top: 50px;
+}
+
+.content-container2 {
+    width: 40vw;
+    padding-bottom: 8px;
+}
+
+.foto-container2 {}
+
+.blank-space {
+    height: 100px;
+    width: 100vw;
+}
+
+
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    height: 248px;
+    width: 100vw;
+    background-color: #C2185B;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-around;
+}
+
+.footer-container1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 40vw;
+    padding-left: 18px;
+    padding-bottom: 10px;
+}
+
+.logo-branco {
+    width: 233px;
+    height: 123px;
+}
+
+.texto-footer {
+    font-size: 14px;
+    width: 255px;
+}
+
+.footer-container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    padding-top: 48px;
+}
+
+.categorias-footer {
+    justify-content: left;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menus-footer {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.escolhas-footer {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.institucional-footer {}
